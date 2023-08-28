@@ -1,16 +1,16 @@
 public class Hero {
 
-    // attributs
+    // attributes
     private String name;
     private int age;
 
-    // constructeurs
+    // constructors
     public Hero(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    // accesseurs (getters)
+    // accessors (getters)
     public String getName() {
         return name;
     }
@@ -19,7 +19,7 @@ public class Hero {
         return age;
     }
 
-    // mutateurs (setters)
+    // mutators (setters)
     public void setName(String name) {
         this.name = name;
     }
